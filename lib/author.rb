@@ -1,10 +1,10 @@
 class Author
-  def initialize(input)
-    @input=input
+  attr_accessor :name
+ 
+  def initialize(name, genre) 
+    @name = name
+    # @genre = genre
   end
-  
-  def parse
-    emails=@input.gsub(',','').split(' ').uniq
-  end
+ 
   
 end
