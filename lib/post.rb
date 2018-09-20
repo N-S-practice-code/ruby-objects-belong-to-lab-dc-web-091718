@@ -5,7 +5,4 @@ class Post
     
   end
   
-  def parse
-    emails=@input.gsub(',','').split(' ').uniq
-  end
 end
