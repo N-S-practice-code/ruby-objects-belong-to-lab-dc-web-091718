@@ -1,6 +1,8 @@
 class Post
-  def initialize(input)
-    @input=input
+  
+  attr_accessor :title
+  def initialize
+    
   end
   
   def parse
