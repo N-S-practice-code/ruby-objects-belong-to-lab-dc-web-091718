@@ -1,9 +1,9 @@
-class Post
-  def initialize(input)
-    @input=input
+class Song
+ 
+  attr_accessor :title, :artist
+ 
+  def initialize(title)
+    @title = title
   end
-  
-  def parse
-    emails=@input.gsub(',','').split(' ').uniq
-  end
+ 
 end
